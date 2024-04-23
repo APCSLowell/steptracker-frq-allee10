@@ -29,7 +29,7 @@ totalSteps += steps;
  }
 
  public double AverageSteps(){
-  if (num == 0)
+  if (numDays== 0)
    return 0.0;
   else
    return (double) totalSteps/numDays;
